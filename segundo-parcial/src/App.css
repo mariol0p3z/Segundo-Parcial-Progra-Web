@@ -1,0 +1,75 @@
+.contenedor {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+h1 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #333;
+}
+
+.tabla th,
+.tabla td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla th {
+  background: #333;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.id {
+  color: #999;
+}
+
+.sin-resultados {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+
+tfoot td {
+  font-size: 0.85rem;
+  color: #666;
+  border-top: 2px solid #333;
+  border-bottom: none;
+}
+
+.pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.pie input {
+  padding: 4px 6px;
+  border: 1px solid #bbb;
+  font-size: 0.85rem;
+  width: 220px;
+}
+
+.pie input:focus {
+  outline: none;
+  border-color: #333;
+  background: #fffbe0;
+}
+
+.mensaje {
+  color: #666;
+}
